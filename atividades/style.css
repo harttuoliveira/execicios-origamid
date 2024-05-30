@@ -4,34 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-article {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px;
-  justify-content: stretch;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  margin-top: 0px;
-}
-
 .comprar {
-  background: #ca2f3c;
+  background: #c53d48;
   color: #3D0F13;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 4px;
-  display: grid;
-}
-
-.item {
-  background: #f7f7f7;
-  border: 1px solid red;
-  margin-bottom: 20px;
-  padding: 20px;
   border-radius: 4px;
 }
