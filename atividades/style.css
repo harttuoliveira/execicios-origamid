@@ -4,25 +4,13 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 2fr 1fr;
-}
-
-.titulo {
-  grid-column: 2;
-  text-align: right;
+  grid-template-columns: repeat(2, 1fr);
+  /*grid-auto-rows: repeat();*/
 }
 
 .preco {
-  place-self: start end;
-}
-
-.descricao {
-  text-align: right;
-}
-
-.comprar {
-  align-self: start;
-  text-align: center;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 
