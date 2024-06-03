@@ -8,9 +8,15 @@
   /*grid-auto-rows: repeat();*/
 }
 
-.preco {
-  grid-column: 2;
-  grid-row: 2;
+.info {
+  display: grid;
+  place-self: start;
+  place-items: start;
+  gap: 20px;
+}
+
+.titulo {
+  grid-column: 1 / -1;
 }
 
 
