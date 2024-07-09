@@ -4,6 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  height: 100vh;
+  place-content: center;
 }
 
 h2 {
@@ -12,3 +14,8 @@ h2 {
   padding: 20px;
   margin: 0px;
 }
+
+body {
+  margin: 0px;
+}
+
