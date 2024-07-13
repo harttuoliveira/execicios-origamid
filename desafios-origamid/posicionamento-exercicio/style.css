@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1fr 1fr;
+  place-content: center;
+  justify-items: end
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #c6c6c6;
+  font-size: 64px;
+}
+
+.bicicleta {
+  display: grid;
+  grid-column: 1 / 2;
+  width: 400px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 40px 40px 20px 20px;
+}
+
+.botaop {
+  display: grid;
+  place-self: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+  background-color: #ee2211;
+}
