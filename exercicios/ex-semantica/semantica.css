@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+aside {
+  font-style: italic;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: red;
+}
+
+main article h2 {
+  font-size: 24px;
+}
+
+main article p {
+  color: #555;
+}
+
+main article p:last-child {
+  margin-bottom: 60px;
+}
