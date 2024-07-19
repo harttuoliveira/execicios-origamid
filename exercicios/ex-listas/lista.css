@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#quadrado {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
