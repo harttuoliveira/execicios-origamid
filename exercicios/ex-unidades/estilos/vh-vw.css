@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px;
+}
+
+section {
+  width: 200px;
+  background: tomato;
+}
+
+div {
+  /* width: 50%; vai ocupar 50% da largura do elemento pai section */
+  width: 50vw; /* view width, 50% da largura de visão da tela */
+  height: 100vh; /* view height, 100% da altura da visão da tela */
+  background: lightblue;
+}
