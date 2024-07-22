@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p {
+  font-size: 2rem; /* letras em 32px */ 
+  font-family: Georgia, 'Times New Roman', Times, serif; /* fonte das letras */
+  font-weight: bold; /* negrito */
+  font-style: italic; /* italico */
+  line-height: 1.3; /* espacamento entre as linhas */
+  text-decoration: none; /* decoração nenhuma */
+  text-transform: lowercase; /* letras minusculas */
+  text-indent: 5rem; /* indentação da primeira linha */
+  text-align: left; /* alinhamento para esquerda */
+  text-shadow: 3px 2px 2px gray; /* sombra do texto */
+  letter-spacing: 0.05rem; /* espacamento entre as letras */
+}
