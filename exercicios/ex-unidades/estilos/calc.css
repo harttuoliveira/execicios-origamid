@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px;
+}
+
+div {
+  /* width: calc(100vw / 3); */ /* 33.33% da largura da viewport */
+  width: calc(100vw - 100px); /* 100% da largura da viewport - 100px */
+  height: 100vh;
+  background: lightblue;
+}
