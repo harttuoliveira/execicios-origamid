@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+div {
+  font-size: 200%;
+}
+
 .px {
   font-size: 32px;
 }
