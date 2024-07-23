@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .bicicleta {
-  height: 1000px;
+  height: 600px;
   background-color: lightblue;
   background-image: url(img/bicicleta.jpg);
   background-repeat: no-repeat;
@@ -10,6 +10,14 @@
   background-attachment: fixed;
   /*background: lightblue url(img/bicicleta.jpg) no-repeat cover center;*/
   display: flex;
+}
+
+.pattern {
+  background-color: lightgrey;
+  background-image: url(img/pattern.svg);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  height: 300px;
 }
 
 h1 {
