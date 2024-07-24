@@ -18,4 +18,12 @@
 
 .lista-2 li:nth-child(2n){
   background: rgb(252, 117, 252);
-} 
+}
+
+.lista-3 li:not(:first-child, :last-child, .segundo){
+  background: rgb(250, 252, 117);
+}
+
+h2:not(.contato) {
+  text-decoration: underline;
+}
