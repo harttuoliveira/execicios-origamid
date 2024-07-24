@@ -1,29 +1,29 @@
 @charset "UTF-8";
 
-.lista-1 li:first-child{
+.lista-1 li:first-child{ /* pinta o primeiro elemento da classe lista-1 */
   background: #af1;
 } 
 
-.lista-1 li{
+.lista-1 li{ /* pinta todos os elementos da classe lista-1 */
   background: #caf;
 }
 
-.lista-1 li:last-child{
+.lista-1 li:last-child{ /* pinta o último elemento da classe lista-1 */
   background: rgb(172, 90, 255);
 }
 
-.lista-1 li:nth-child(4){
+.lista-1 li:nth-child(4){ /* pinta o quarto elemento da classe lista-1 */
   background: #c81;
 } 
 
-.lista-2 li:nth-child(2n){
+.lista-2 li:nth-child(2n){ /* pinta os elementos pares da classe lista-2 */
   background: rgb(252, 117, 252);
 }
 
-.lista-3 li:not(:first-child, :last-child, .segundo){
+.lista-3 li:not(:first-child, :last-child, .segundo){ /* pinta todos os elementos da classe lista-3 exceto o primeiro, o último e o segundo */
   background: rgb(250, 252, 117);
 }
 
-h2:not(.contato) {
+h2:not(.contato) { /* sublinha todos os h2 exceto o h2 com classe contato */
   text-decoration: underline;
 }
