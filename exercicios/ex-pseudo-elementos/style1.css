@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1 {
+  position: relative;
+}
+
+h1::after { /* para a decoração ficar embaixo */
+  content: "";
+  display: block;
+  width: 224px;
+  height: 20px;
+  background: lightgray;
+  position: absolute;
+  top: 20px;
+  z-index: -1;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+li::before {
+  content: ""; /* para usar o elemento como decoração */
+  display: inline-block; /* para ficar um elemento ao lado do outro */
+  width: 8px;
+  height: 8px;
+  background-image: linear-gradient(gray, #fff);
+  border: 2px solid gray;
+  margin-right: 10px;
+  border-radius: 50%; /* para ficar redondo */
+}
