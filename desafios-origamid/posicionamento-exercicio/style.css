@@ -88,16 +88,12 @@ header {
   background-color: #e21;
   color: #fff;
   width: 60px; /* largura */
-  height: 5px; /* altura */
+  height: 4px; /* altura */
   position: absolute; /* para o detalhe ficar em cima */
   top: 30px; /* distância do topo para o detalhe */
   right: -30px; /* distância da direita para o detalhe */
 }
 
-.botao:hover {
-  background-color: #900;
-  /*transform: rotate(90deg);*/
-}
 
 .botao {
   background-color: #e21;
@@ -110,6 +106,7 @@ header {
 
 .botao:hover {
   background-color: #900;
+  /*transform: rotate(90deg);*/
 }
 
 .subtitulo {
