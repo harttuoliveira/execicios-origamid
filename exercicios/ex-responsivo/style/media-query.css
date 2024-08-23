@@ -3,3 +3,35 @@
 img {
   max-width: 100%;
 }
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colunas */
+  gap: 2rem;
+}
+
+h1 {
+  grid-column: 1 / -1; /* 1 coluna e vai ate o fim */
+}
+
+@media (max-width: 600px) {
+
+  div {
+    grid-template-columns: 1fr; /* 1 coluna */
+  }
+}
+
+@media (min-width: 1000px), (max-width: 500px) {
+
+  html {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+  p {
+    background: gray;
+
+  }
+}
