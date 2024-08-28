@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 900px; /* largura maxima do conteudo */
+  margin: 0 auto; /* para cima e para baixo nao modifica e para os lados centralizado */
+}
+
+.cover {
+  object-fit: cover; /* imagem cobre toda a div */
+  object-position: top center; /* o foco da imagem fica no topo e no centro */
+}
+
+.texto {
+  align-self: end; /* para o texto ficar na parte de baixo */
+}
+
+p {
+  max-width: 60ch; /* para o texto ficar no maximo de 60 caracteres */ /* para corpo de texto entre 50-75 caracteres é o ponto ideal*/
+}

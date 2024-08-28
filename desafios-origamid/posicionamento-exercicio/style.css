@@ -13,6 +13,7 @@ body {
 img {
   max-width: 100%; /* imagem responsiva */
   display: block; /* imagem na propria linha */
+  
 }
 
 a {
@@ -39,6 +40,12 @@ header {
   display: grid; 
   gap: 60px;
   justify-items: center;
+}
+
+#bicicleta {
+  display: grid;
+  object-fit: cover; /* imagem cobre toda a div */
+  object-position: top center; /* o foco da imagem fica no topo e no centro */
 }
 
 .menu {
@@ -124,6 +131,10 @@ header {
   padding: 40px;
 }
 
+#vatagens {
+  grid-template-columns: 1fr;
+}
+
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -149,4 +160,29 @@ header {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width: 412px) {
+
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+
+  .subtitulo {
+    font-size: 3rem;
+  }
+
+  .menu {
+    justify-content: flex-start;
+  }
+  
 }
