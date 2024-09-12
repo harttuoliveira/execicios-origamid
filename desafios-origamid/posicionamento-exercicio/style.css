@@ -188,6 +188,15 @@ header {
 
 @media (max-width: 600px) {
 
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  header {
+    gap: 30px;
+  }
+
   .conteudo {
     grid-template-columns: 1fr;
   }
@@ -201,7 +210,19 @@ header {
     display: none;
   }
 
-  .menu {
-    justify-content: flex-start;
+}
+
+@media (max-width: 400px) {
+
+  .subtitulo {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .vantagens {
+    padding: 35px;
   }
 }
